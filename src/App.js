@@ -3,10 +3,15 @@ import Header from "./components/Header";
 import Profile from "./pages/Profile";
 import Education from "./pages/Education";
 import Projects from "./pages/Projects";
+import video from "./img/background-video.mp4";
 
 function App() {
   return (
     <div className="App">
+      <div className="video-background">
+        <video src={video} autoPlay muted loop></video>
+      </div>
+
       <Header />
       <Routes>
         <Route index path="/" element={<Profile />}></Route>

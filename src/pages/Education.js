@@ -35,6 +35,11 @@ const Education = () => {
           </tr>
           <tr>
             <td colSpan="2" className="education-info">
+              30 out of 32 courses successfully passed.
+            </td>
+          </tr>
+          <tr>
+            <td colSpan="2" className="education-info">
               Specialized in legal, economic, financial, medical and technical
               texts.
             </td>

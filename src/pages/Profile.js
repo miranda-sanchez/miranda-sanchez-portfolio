@@ -7,15 +7,16 @@ const Profile = () => {
     <main className="Profile">
       <h3>About me</h3>
       <section className="profile-education">
-        <h4>Academic background</h4>
         <p>
-          Graduate Student in English-Spanish Certified Translation, having
-          passed 30 out of 32 courses, and specializing in legal, economic,
-          financial, medical, and technical texts.
+          <strong>Frontend web developer</strong> based in Buenos Aires.
+          Graduate Student in{" "}
+          <strong>English-Spanish Certified Translation</strong> and in{" "}
+          <strong>Computer Science</strong>.
         </p>
         <p>
-          Graduate Computer Science student and frontend programmer with two
-          years of experience. Great creative capacity with an eye for detail.
+          I am passionate about integrating <strong>language skills</strong>{" "}
+          with programming. My strong attention to detail and innovative
+          approach drive me to create seamless, impactful digital solutions.
         </p>
         <Link to="/education">
           <button>
@@ -37,13 +38,6 @@ const Profile = () => {
           <li>French: B1</li>
           <li>Portuguese: A1</li>
         </ul>
-      </section>
-      <section className="profile-softskills">
-        <h4>Soft Skills</h4>
-        <p>
-          Solid communication and teamwork skills. Fast learner with a strong
-          commitment to further improving in both fields.
-        </p>
       </section>
     </main>
   );

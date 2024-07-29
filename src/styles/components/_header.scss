@@ -4,23 +4,31 @@ header {
     position: fixed;
     z-index: 10;
     nav {
-        margin: 1rem 0;
-        
+        //margin: 1rem 0;
+        margin-top: 2rem;
         ul {
+            display: inline-flex;
+            flex-direction: column;
+
             
             li {
-                margin-right: 1rem;
+                display: inline-block;
+                //margin-bottom: 1rem;
                 position: relative;
+                letter-spacing: .03rem;
+                
                 
                 &.active::after {
+                    display: inline-block; 
                     content: "";
+                    width: 4px;
+                    height: 100%;
                     display: block;
-                    width: 20px;
-                    height: 2px;
                     background-color: $text; 
                     position: absolute;
-                    bottom: -0.2rem;
-                    left: 0;
+                    bottom: 0;
+                    right: -10px;
+                    animation: backgroundChange 1s infinite;
 
                 }
             }
@@ -28,30 +36,14 @@ header {
     }
 }
 
- @media (min-width: 768px) { 
-    header {
-        display: flex;
-        flex-direction: column;
-
-        h1, h2 {
-            text-align: left;
-        }
-
-        h1 {
-            text-wrap: nowrap;
-        }
-
-        nav {
-            height: 100%;
-            margin-top: 4rem;
-            max-width: 150px;
-
-            ul {
-                flex-direction: column;
-                li {
-                    margin-bottom: 1rem;
-                }
-            }
-        }
+@keyframes backgroundChange {
+    0% {
+        background-color: $text;
     }
- }
+    50% {
+        background-color: transparent;
+    }
+    100% {
+        background-color: $text;
+    }
+}
