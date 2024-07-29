@@ -23,7 +23,12 @@ const Profile = () => {
           </button>
         </Link>
       </section>
-      <section className="profile-technologies"></section>
+      <section className="profile-technologies">
+        <h4>Technologies</h4>
+        <ul>
+          <li></li>
+        </ul>
+      </section>
       <section className="profile-languages">
         <h4>Languages</h4>
         <ul>
@@ -33,7 +38,7 @@ const Profile = () => {
           <li>Portuguese: A1</li>
         </ul>
       </section>
-      <section className="profile-softkills">
+      <section className="profile-softskills">
         <h4>Soft Skills</h4>
         <p>
           Solid communication and teamwork skills. Fast learner with a strong

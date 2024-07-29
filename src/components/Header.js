@@ -1,7 +1,9 @@
 import React, { useEffect } from "react";
-import { Link } from "react-router-dom";
+import { Link, useLocation } from "react-router-dom";
 
 const Header = () => {
+  const location = useLocation();
+
   useEffect(() => {
     const rolesElement = document.getElementById("roles");
     const text = rolesElement.innerHTML;
@@ -11,20 +13,24 @@ const Header = () => {
   return (
     <header>
       <h1>Miranda Sánchez</h1>
-      <h2 id="roles">
-        Fontend Developer, English-Spanish Translator, &amp; Digital Artist
-      </h2>
+      <h2 id="roles">Developer, Translator, &amp; Artist</h2>
 
       <nav>
         <ul>
           <Link to="/">
-            <li>Profile</li>
+            <li className={location.pathname === "/" ? "active" : ""}>
+              Profile
+            </li>
           </Link>
           <Link to="/education">
-            <li>Education</li>
+            <li className={location.pathname === "/education" ? "active" : ""}>
+              Education
+            </li>
           </Link>
           <Link to="/projects">
-            <li>Projects</li>
+            <li className={location.pathname === "/projects" ? "active" : ""}>
+              Projects
+            </li>
           </Link>
         </ul>
       </nav>

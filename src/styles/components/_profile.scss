@@ -1,6 +1,9 @@
 @use "../base/colors" as *;
 
 .Profile {
+    position: fixed;
+    bottom: 0;
+    right: 0;
     section {
         margin-bottom: 2rem;
     }

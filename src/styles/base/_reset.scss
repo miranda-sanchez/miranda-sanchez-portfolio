@@ -24,15 +24,42 @@ body {
     border: 1px solid $text;
     padding: 1rem;
     margin: 1rem;
+
+    
 }
 
 main {
     flex: 1;
+    overflow-y: auto;
+    overflow-x: hidden;
+
+    padding: 1rem;
+    margin: 1rem;
+
+  //Making the scrollbar invisible
+  -ms-overflow-style: none;  /* Internet Explorer y Edge */
+  scrollbar-width: none;  /* Firefox */
+
+  &::-webkit-scrollbar {
+    display: none; /* WebKit (Chrome, Safari) */
+    }
+
+    text-align: right;
 }
 
-h1, h2 {
+
+  
+
+h1 {
+    font-size: 1.5rem;
     font-family: $font-titles;
     text-transform: uppercase;
+    text-wrap: nowrap;
+}
+
+h2 {
+    font-size: 1rem;
+    font-weight: 400;
 }
 
 h1, h2, h3 {
@@ -56,10 +83,11 @@ a {
     color: $text;
 }
 
-@media (min-width: 768px) { 
+/* @media (min-width: 768px) { 
     .App {
         display: grid;
         grid-template-columns: 1fr 2fr;
         gap: 4rem;
     }
-}
+} */
+
