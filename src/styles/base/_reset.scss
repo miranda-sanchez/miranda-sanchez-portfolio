@@ -1,0 +1,65 @@
+@use "_colors.scss" as *;
+@use "_fonts.scss" as *;
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    overflow: hidden;
+    background-color: $main;
+    font-family: $font-text;
+    color: $text;
+}
+
+.App {
+    height: calc(100vh - 2rem);
+
+    border: 1px solid $text;
+    padding: 1rem;
+    margin: 1rem;
+}
+
+main {
+    flex: 1;
+}
+
+h1, h2 {
+    font-family: $font-titles;
+    text-transform: uppercase;
+}
+
+h1, h2, h3 {
+    margin-bottom: 0.5rem;
+}
+
+
+p {
+    margin-bottom: 0.5rem;
+    max-width: 800px;
+    line-height: 1.5;
+}
+
+li {
+    list-style-type: none;
+    line-height: 1.5;
+}
+
+a {
+    text-decoration: none;
+    color: $text;
+}
+
+@media (min-width: 768px) { 
+    .App {
+        display: grid;
+        grid-template-columns: 1fr 2fr;
+        gap: 4rem;
+    }
+}

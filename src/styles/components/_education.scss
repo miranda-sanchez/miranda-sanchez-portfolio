@@ -1,0 +1,34 @@
+@use "../base/fonts" as *;
+@use "../base/colors" as *;
+
+.Education {
+    margin: 0 auto;
+    .education-container {
+        margin-bottom: 1rem;
+        h4 {
+            font-family: $font-titles;
+            font-size: 1.5rem;
+            text-transform: uppercase;
+            
+        }
+        table {
+            
+            tr {
+                margin: 0.5rem;
+            }
+            th, td {
+                text-align: left;
+                padding: 0.5rem 0;
+                
+            }
+            th, strong {
+                font-weight: 400;
+            }
+            .education-info {
+                max-width: 600px;
+            }
+            
+        }
+
+    }
+}

@@ -1,0 +1,28 @@
+@use "../base/colors" as *;
+@use "../base/fonts" as *;
+
+button {
+    padding: 0.5rem;
+
+    color: $text;
+    font-family: $font-text;
+    font-size: 1rem;
+
+    border: 1px solid $text;
+    background-color: $main;
+
+    cursor: pointer;
+
+    display: flex;
+    align-items: center;
+
+    .btn-arrow {
+        margin-left: 0.3rem;
+    }
+
+
+
+    &:hover {
+        background-color: rgba($text, 0.3);
+    }
+}
