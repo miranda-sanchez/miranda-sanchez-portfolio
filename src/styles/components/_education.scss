@@ -7,13 +7,7 @@
         display: flex;
         align-items: flex-end; 
         flex-direction: column;
-        h4 {
-            font-family: $font-titles;
-            font-size: 1.5rem;
-            text-transform: uppercase;
-            width: 100%;
-            
-        }
+        
         table {
             max-width: 400px;
             border-collapse: collapse;
@@ -35,3 +29,4 @@
 
     }
 }
+

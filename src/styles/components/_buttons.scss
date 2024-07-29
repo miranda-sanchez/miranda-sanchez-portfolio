@@ -20,9 +20,22 @@ button {
         margin-left: 0.3rem;
     }
 
-
-
     &:hover {
         background-color: rgba($text, 0.3);
+    }
+
+    &.btn-action {
+        background-color: rgba($action, 0.8);
+        &:hover {
+            background-color: $action;
+        }
+    }
+}
+
+.btn-container {
+    display: flex;
+    justify-content: flex-end;
+    button:first-of-type {
+        margin-right: 1rem;
     }
 }
