@@ -1,20 +1,37 @@
 @use "../base/fonts" as *;
 
 .Projects {
-    position: fixed;
-    bottom: 0;
-    right: 0;
-    ol {
-        list-style-type: decimal-leading-zero;
-
-        li {
+        article {
             font-family: $font-titles;
-            font-size: 2.5rem;
+            font-size: 1.5rem;
+            font-weight: 700;
             text-transform: uppercase;
 
             margin-bottom: 2rem;
         
+            span {
+                display: block;
+
+                font-family: $font-text;
+                font-weight: 400;
+                font-size: 0.9rem;
+
+                text-transform: none;
+                margin-bottom: 1rem;
+            }
             
         }
+    
+}
+
+@media (min-width: 768px) { 
+    .Projects article {
+        font-size: 2.5rem;
+    }
+}
+
+@media (min-width: 992px) { 
+    .Projects article {
+        font-size: 3rem;
     }
 }

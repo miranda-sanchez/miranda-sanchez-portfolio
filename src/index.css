@@ -165,7 +165,7 @@ button.btn-action:hover {
   display: flex;
   justify-content: flex-end;
 }
-.btn-container button:first-of-type {
+.btn-container .btn-action {
   margin-right: 1rem;
 }
 
@@ -203,19 +203,31 @@ button.btn-action:hover {
   line-height: 1.5;
 }
 
-.Projects {
-  position: fixed;
-  bottom: 0;
-  right: 0;
-}
-.Projects ol {
-  list-style-type: decimal-leading-zero;
-}
-.Projects ol li {
+.Projects article {
   font-family: "Teko", sans-serif;
-  font-size: 2.5rem;
+  font-size: 1.5rem;
+  font-weight: 700;
   text-transform: uppercase;
   margin-bottom: 2rem;
+}
+.Projects article span {
+  display: block;
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 400;
+  font-size: 0.9rem;
+  text-transform: none;
+  margin-bottom: 1rem;
+}
+
+@media (min-width: 768px) {
+  .Projects article {
+    font-size: 2.5rem;
+  }
+}
+@media (min-width: 992px) {
+  .Projects article {
+    font-size: 3rem;
+  }
 }
 
 /*# sourceMappingURL=index.css.map */
