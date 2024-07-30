@@ -27,7 +27,12 @@
     "extends": [
       "react-app",
       "react-app/jest"
-    ]
+    ],
+    "rules": {
+      "no-var": "error",
+      "jsx-a11y/anchor-has-content": "off",
+      "react/jsx-no-target-blank": "off"
+    }
   },
   "browserslist": {
     "production": [
