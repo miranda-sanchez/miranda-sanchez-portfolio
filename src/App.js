@@ -3,6 +3,8 @@ import Header from "./components/Header";
 import Profile from "./pages/Profile";
 import Education from "./pages/Education";
 import Projects from "./pages/Projects";
+import Contact from "./pages/Contact";
+
 import video from "./img/background-video.mp4";
 
 function App() {
@@ -17,6 +19,7 @@ function App() {
         <Route index path="/" element={<Profile />}></Route>
         <Route index path="/education" element={<Education />}></Route>
         <Route index path="/projects" element={<Projects />}></Route>
+        <Route index path="/contact" element={<Contact />}></Route>
       </Routes>
     </div>
   );

@@ -3,26 +3,27 @@
 
 .Education {
     .education-container {
-        margin-bottom: 1rem;
+        margin-bottom: 2rem;
         display: flex;
         align-items: flex-end; 
         flex-direction: column;
-        
+
         table {
             max-width: 400px;
             border-collapse: collapse;
             th, td {
-                text-align: left;
+                text-align: right;
                 padding: 0.5rem 0;
+                border-bottom: 1px solid rgba($text, 0.3);
                 
             }
            
             th, strong {
                 font-weight: 400;
             }
-            .education-info {
-                max-width: 600px;
+            .years, .university, .education-info {
                 line-height: 1.5;
+                border-bottom: none;
             }
             
         }
@@ -30,3 +31,14 @@
     }
 }
 
+@media (min-width: 768px) { 
+    .Education .education-container h4 {
+        font-size: 2.5rem;
+    }
+}
+
+@media (min-width: 992px) { 
+    .Education .education-container h4 {
+        font-size: 3rem;
+    }
+}

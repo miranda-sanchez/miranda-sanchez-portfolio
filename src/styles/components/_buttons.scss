@@ -35,7 +35,7 @@ button {
 .btn-container {
     display: flex;
     justify-content: flex-end;
-    .btn-action {
-        margin-right: 1rem;
+    button {
+        margin-left: 1rem;
     }
 }

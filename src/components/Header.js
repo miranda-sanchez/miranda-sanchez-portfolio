@@ -32,6 +32,11 @@ const Header = () => {
               Projects
             </li>
           </Link>
+          <Link to="/contact">
+            <li className={location.pathname === "/contact" ? "active" : ""}>
+              Contact
+            </li>
+          </Link>
         </ul>
       </nav>
     </header>

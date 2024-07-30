@@ -8,17 +8,18 @@ const Education = () => {
         <h4>English-Spanish Certified Translation</h4>
         <table>
           <tr>
-            <td>2019 - Present</td>
+            <td colSpan="2" className="years">
+              2019 - Present
+            </td>
+          </tr>
+          <tr>
+            <td colSpan="2" className="university">
+              <strong>University of Buenos Aires</strong>
+            </td>
           </tr>
           <tr>
             <th>Graduation year</th>
             <td>2024</td>
-          </tr>
-          <tr>
-            <th>University</th>
-            <td>
-              <strong>University of Buenos Aires</strong>
-            </td>
           </tr>
           <tr>
             <th>Duration</th>
@@ -30,18 +31,9 @@ const Education = () => {
           </tr>
           <tr>
             <td colSpan="2" className="education-info">
-              Translation of texts from English to Spanish and vice versa.
-            </td>
-          </tr>
-          <tr>
-            <td colSpan="2" className="education-info">
-              30 out of 32 courses successfully passed.
-            </td>
-          </tr>
-          <tr>
-            <td colSpan="2" className="education-info">
-              Specialized in legal, economic, financial, medical and technical
-              texts.
+              30 out of 32 courses successfully passed. Translation of texts
+              from English to Spanish and vice versa. Specialized in legal,
+              economic, financial, medical and technical texts.
             </td>
           </tr>
         </table>
@@ -50,15 +42,18 @@ const Education = () => {
         <h4>Computer Science</h4>
         <table>
           <tr>
-            <td>2024 - Present</td>
+            <td colSpan="2" className="years">
+              2024 - Present
+            </td>
+          </tr>
+          <tr>
+            <td colSpan="2" className="university">
+              Universidad Nacional del Oeste
+            </td>
           </tr>
           <tr>
             <th>Graduation year</th>
             <td>2029</td>
-          </tr>
-          <tr>
-            <th>University</th>
-            <td>Universidad Nacional del Oeste</td>
           </tr>
           <tr>
             <th>Duration</th>
@@ -82,11 +77,14 @@ const Education = () => {
         <h4>Graphic Design</h4>
         <table>
           <tr>
-            <td>2018 (Incomplete)</td>
+            <td colSpan="2" className="years">
+              2018 (Incomplete)
+            </td>
           </tr>
           <tr>
-            <th>University</th>
-            <td>University of Buenos Aires</td>
+            <td colSpan="2" className="university">
+              <strong>University of Buenos Aires</strong>
+            </td>
           </tr>
           <tr>
             <td colSpan="2" className="education-info">
