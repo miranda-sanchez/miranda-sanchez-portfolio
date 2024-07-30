@@ -19,7 +19,7 @@ const Profile = () => {
           approach drive me to create seamless, impactful digital solutions.
         </p>
         <div className="btn-container">
-          <a href="/public/CV_SanchezMiranda" download>
+          <a href="/CV_SanchezMiranda.pdf" download>
             <button className="btn-action">
               CV <FiArrowDown className="btn-arrow" />
             </button>
