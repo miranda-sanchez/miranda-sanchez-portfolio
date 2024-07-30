@@ -30,7 +30,11 @@ const Projects = () => {
             Design, Development & Illustrations | 2023 | Vainilla JavaScript
           </span>
           <div className="btn-container">
-            <a href="https://miranda-sanchez.github.io/fetzi" target="_blank">
+            <a
+              href="https://miranda-sanchez.github.io/fetzi"
+              target="_blank"
+              rel="noreferrer"
+            >
               <button className="btn-action">
                 Visit <FiArrowUpRight className="btn-arrow" />
               </button>
