@@ -11,12 +11,20 @@ const Contact = () => {
       </section>
       <section>
         <div className="btn-container">
-          <Link to="https://www.linkedin.com/in/miranda--sanchez/">
+          <Link
+            to="https://www.linkedin.com/in/miranda--sanchez/"
+            target="_blank"
+            rel="noreferrer"
+          >
             <button>
               <FiLinkedin className="btn-icon" />
             </button>
           </Link>
-          <Link to="https://github.com/miranda-sanchez">
+          <Link
+            to="https://github.com/miranda-sanchez"
+            target="_blank"
+            rel="noreferrer"
+          >
             <button>
               <FiGithub className="btn-icon" />
             </button>
