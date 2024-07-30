@@ -38,6 +38,7 @@ const Projects = () => {
             <a
               href="https://github.com/miranda-sanchez/fetzi"
               target="_blank"
+              rel="noreferrer"
             ></a>
             <button>
               Code <FiArrowUpRight className="btn-arrow" />
@@ -51,6 +52,7 @@ const Projects = () => {
             <a
               href="https://miranda-sanchez.github.io/quiz-app/"
               target="_blank"
+              rel="noreferrer"
             >
               <button className="btn-action">
                 Visit <FiArrowUpRight className="btn-arrow" />
@@ -59,6 +61,7 @@ const Projects = () => {
             <a
               href="https://github.com/miranda-sanchez/quiz-app/"
               target="_blank"
+              rel="noreferrer"
             ></a>
             <button>
               Code <FiArrowUpRight className="btn-arrow" />
