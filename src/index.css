@@ -29,7 +29,7 @@ main {
   flex: 1;
   overflow-y: auto;
   overflow-x: hidden;
-  margin-left: 5.5rem;
+  margin-left: 6rem;
   -ms-overflow-style: none; /* Internet Explorer y Edge */
   scrollbar-width: none; /* Firefox */
   text-align: right;
@@ -192,7 +192,6 @@ button.btn-action:hover {
 .Education .education-container table th, .Education .education-container table td {
   text-align: right;
   padding: 0.5rem 0;
-  border-bottom: 1px solid rgba(167, 167, 167, 0.3);
 }
 .Education .education-container table th, .Education .education-container table strong {
   font-weight: 400;
