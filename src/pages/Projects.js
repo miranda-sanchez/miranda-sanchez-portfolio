@@ -7,7 +7,7 @@ const Projects = () => {
       <h3>Selected Projects</h3>
       <section>
         <article>
-          Musée du Louvre
+          <h4>Musée du Louvre</h4>
           <span>Design & Development | 2024 | React</span>
           <div className="btn-container">
             <a href="https://louvree.netlify.app/" target="_blank">
@@ -25,7 +25,7 @@ const Projects = () => {
           </div>
         </article>
         <article>
-          Fetsi (Furniture e-commerce)
+          <h4>Fetsi (e-commerce)</h4>
           <span>
             Design, Development & Illustrations | 2023 | Vainilla JavaScript
           </span>
@@ -50,7 +50,7 @@ const Projects = () => {
           </div>
         </article>
         <article>
-          Quizz App
+          <h4>Quizz App</h4>
           <span>Design & Development | 2022 | Vainilla JavaScript</span>
           <div className="btn-container">
             <a

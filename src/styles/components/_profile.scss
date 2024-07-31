@@ -7,7 +7,10 @@
     section {
         margin-bottom: 2rem;
         p {
-            max-width: 400px ;
+            max-width: 300px ;
+            strong {
+                font-weight: 400;
+            }
         }
     }
 }
