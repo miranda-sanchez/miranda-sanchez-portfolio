@@ -4,6 +4,7 @@ import Profile from "./pages/Profile";
 import Education from "./pages/Education";
 import Projects from "./pages/Projects";
 import Contact from "./pages/Contact";
+import Languages from "./components/Languages";
 
 import video from "./img/background-video.mp4";
 
@@ -15,6 +16,7 @@ function App() {
       </div>
 
       <Header />
+      <Languages />
       <Routes>
         <Route index path="/" element={<Profile />}></Route>
         <Route index path="/education" element={<Education />}></Route>

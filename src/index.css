@@ -135,6 +135,29 @@ header nav ul li.active::after {
     background-color: #a7a7a7;
   }
 }
+.Languages {
+  position: fixed;
+  bottom: 2rem;
+  left: 2rem;
+  z-index: 3;
+}
+.Languages .popover-content {
+  padding: 1rem 0.75rem;
+  margin-bottom: 0.5rem;
+  color: #a7a7a7;
+  background-color: rgb(3, 3, 19);
+  border: 1px solid #a7a7a7;
+  position: relative;
+}
+.Languages .popover-content .close-btn {
+  position: absolute;
+  top: 0.25rem;
+  right: 0.25rem;
+  background: none;
+  border: none;
+  font-size: 1rem;
+}
+
 button {
   padding: 0.5rem;
   color: #a7a7a7;

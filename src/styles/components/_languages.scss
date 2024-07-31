@@ -1,0 +1,30 @@
+@use "../base/colors" as *;
+.Languages {
+    position: fixed;
+    bottom: 2rem;
+    left: 2rem;
+    z-index: 3;
+    .popover-content {
+        padding: 1rem 0.75rem;
+        margin-bottom: 0.5rem;
+
+        color: $text;
+        background-color: $main;
+
+        border: 1px solid $text;
+
+        position: relative;
+        
+        .close-btn {
+            position: absolute;
+            top: 0.25rem;
+            right: 0.25rem;
+            background: none;
+            border: none;
+            font-size: 1rem;
+            
+
+        }
+        }
+    }
+    
