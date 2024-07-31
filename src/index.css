@@ -59,7 +59,7 @@ h1, h2, h3 {
 
 h4 {
   font-family: "Teko", sans-serif;
-  font-size: 2.5rem;
+  font-size: 2.2rem;
   text-transform: uppercase;
 }
 
@@ -235,6 +235,14 @@ button.btn-action:hover {
 .Education .education-container table .years, .Education .education-container table .university, .Education .education-container table .education-info {
   line-height: 1.5;
   border-bottom: none;
+}
+.Education .note {
+  text-align: right;
+  float: right;
+  margin: 0;
+  max-width: 400px;
+  font-size: 0.9rem;
+  color: rgba(167, 167, 167, 0.8);
 }
 
 .Projects article {

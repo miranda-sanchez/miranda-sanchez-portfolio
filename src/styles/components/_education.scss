@@ -2,6 +2,7 @@
 @use "../base/colors" as *;
 
 .Education {
+
     .education-container {
         margin-bottom: 2rem;
         display: flex;
@@ -24,8 +25,18 @@
                 line-height: 1.5;
                 border-bottom: none;
             }
-            
         }
+
+        
+
+    }
+    .note {
+        text-align: right;
+        float: right;
+        margin: 0;
+        max-width: 400px;
+        font-size: 0.9rem;
+        color: rgba($text, 0.8);
 
     }
 }

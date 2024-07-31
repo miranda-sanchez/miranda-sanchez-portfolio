@@ -93,6 +93,10 @@ const Education = () => {
           </tr>
         </table>
       </div>
+      <p className="note">
+        Note: All of the aforementioned degrees are equivalent to a U.S.
+        Master's degree in terms of both contents and credits.
+      </p>
     </main>
   );
 };

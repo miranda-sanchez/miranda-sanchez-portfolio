@@ -13,7 +13,7 @@ const Languages = () => {
     <section className="Languages">
       {showPopover && (
         <div className="popover-content">
-          <button className="close-btn" onClick={togglePopover}>
+          <button className="close-btn" ref={buttonRef} onClick={togglePopover}>
             <FaTimes />
           </button>
           <ul>
